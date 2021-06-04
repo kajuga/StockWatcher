@@ -8,8 +8,9 @@
 <module rename-to='stockwatcher'>
   <!-- Inherit our applications main module.                      -->
   <inherits name='com.google.gwt.sample.stockwatcher.StockWatcher'/>
+    <inherits name="com.google.gwt.user.UI"/>
 
-  <!-- Specify the path to any remote services.                   -->
+    <!-- Specify the path to any remote services.                   -->
   <servlet path="/stockwatcher/greet" class="com.google.gwt.sample.stockwatcher.server.GreetingServiceImpl" />
 
 </module>
