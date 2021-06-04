@@ -6,7 +6,7 @@ body {
 
 /* stock list header row */
 .watchListHeader {
-  background-color: #2062B8;
+  background-color: #2162B8;
   color: white;
   font-style: italic;
 }
@@ -34,8 +34,10 @@ body {
   margin: 10px 0px 15px 0px;
 }
 
+
 /* stock list, the Remove button */
 .gwt-Button-remove {
+  color: aqua;
   width: 50px;
 }
 
